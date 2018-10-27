@@ -1,0 +1,153 @@
+
+
+body {
+      background-image: url('../images/background2.jpg');
+      background-position: center;
+      background-size: 100%
+}
+
+img{
+	width: 200px;
+	height: 200px;
+	border-radius: 40px;
+	padding: 10px;
+
+}
+
+
+img[src = "images/profilepicture.JPG"] {
+	width: 200px;
+	border-radius: 15px;
+
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+
+h1{
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: medium;
+}
+
+
+p{
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-align: center;
+	font-size: large;
+}
+
+
+
+ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 20px;
+	font-family: 'verdana', cursive;
+	font-size: medium;
+}
+
+
+
+a:visited {
+	color: rgb(48,48,48);
+}
+
+
+
+.current{
+	text-transform: uppercase;
+
+}
+
+
+section {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	.pictures{
+		min-width: 0;
+		margin: 5px;
+	}
+
+
+	img {
+		width: 100px;
+		max-width: 100px;
+		max-height: 350;
+		object-fit: scale-down;
+	}
+}
+
+
+.fab{
+	font-size: 5em;
+}
+
+.fab:hover {
+	opacity: 0.8;
+}
+
+
+iframe{
+	display: block;
+	height: 1000%;
+	width: 100%;
+	margin: 0;
+}
+
+
+/*Smartphones (portrait and landscape) ----------- */ 
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	ul li{
+		display: inline;
+		list-style: none;
+		padding: 20px;
+		font-family: 'verdana', cursive;
+		font-size: small;
+		}
+
+}
+
+@media only screen and (min-width : 321px) {
+	section {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+
+	.pictures{
+		min-width: 0;
+		margin: 10px;
+	}
+
+
+	img {
+		width: 100px;
+		max-width: 100px;
+		max-height: 375;
+		object-fit: scale-down;
+	}
+}
+
+
+}
+
+
+
+
+
+
+
+
+
